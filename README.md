@@ -58,23 +58,6 @@ python decrypt.py
 - **mypicencrypted.jpg** - Image containing the hidden message.
 
 
-## Example
-
-### Encrypting:
-
-```sh
-Enter secret message: Hello, world!
-Enter a passcode: mysecretpass
-Encryption done. Saved as 'encryptedImage.png'.
-```
-
-### Decrypting:
-
-```sh
-Enter password: mysecretpass
-Secret message: Hello, world!
-```
-
 ## Notes
 
 - The encryption process replaces pixel values with message bytes.
